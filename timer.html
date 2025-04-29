@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link href="https://cdn.materialdesignicons.com/6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="paginas">
+        <div class="pag">
+            <a href="index.html"><span class="mdi mdi-clock-fast"></span></a>
+
+        </div>
+        <div class="pag">
+            <a href="timer.html"><span class="mdi mdi-alarm"></span></a>
+
+        </div>
+        <div class="pag">
+            <span class="mdi mdi-web-clock"></span>
+
+        </div>
+    </div>
+
+    <h1>Timer</h1>
+    <div id="acimaTimer">
+        <span class="mdi mdi-arrow-up-drop-circle" onclick="addHora()"></span>
+        <span class="mdi mdi-arrow-up-drop-circle" onclick="addMin()"></span>
+        <span class="mdi mdi-arrow-up-drop-circle" onclick="addSec()"></span>
+
+    </div>
+    <div id="displayTimer">
+        <p id="horaTimer" class="numero">0</p>
+        <p class="numero">:</p>
+        <p id="minTimer" class="numero">0</p>
+        <p class="numero">:</p>
+        <p id="secTimer" class="numero">0</p>
+    </div>
+    <div id="abaixoTimer">
+        <span class="mdi mdi-arrow-down-drop-circle" onclick="abaixaHora()"></span>
+        <span class="mdi mdi-arrow-down-drop-circle" onclick="abaixaMin()"></span>
+        <span class="mdi mdi-arrow-down-drop-circle" onclick="abaixaSec()"></span>
+    </div>
+    <div id="displayBotoes">
+        <button class="iniciaTimer" id="startStopTimer" onclick="iniciaTimer()">
+            Iniciar
+        </button>
+        <button class="cancela" id="cancela" onclick="cancelaTimer()">
+            Cancelar
+        </button>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

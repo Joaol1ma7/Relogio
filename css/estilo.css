@@ -1,0 +1,189 @@
+#paginas {
+    display: flex;
+}
+
+.pag {
+    flex: 33%;
+    text-align: center;
+}
+
+.mdi-clock-fast {
+    font-size: 50px;
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: black;
+    /* Herda a cor do elemento pai (remove a cor padrão do link) */
+}
+
+.mdi-alarm {
+    font-size: 50px;
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: black;
+    /* Herda a cor do elemento pai (remove a cor padrão do link) */
+}
+
+.mdi-web-clock {
+    font-size: 50px;
+    text-decoration: none;
+    /* Remove o sublinhado */
+    color: inherit;
+    /* Herda a cor do elemento pai (remove a cor padrão do link) */
+}
+
+#displayCron {
+    display: flex;
+    margin-top: 130px;
+    text-align: center;
+    justify-content: center;
+}
+
+.numero {
+    font-size: 50px;
+    font-family: arial;
+}
+
+#displayBotoes {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+button {
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    margin-right: 15px;
+}
+
+.start {
+    background: green;
+}
+
+.start:hover {
+    background: rgb(0, 81, 0);
+    cursor: pointer;
+}
+
+.volta {
+    background: grey;
+}
+
+.volta:hover {
+    background: rgb(91, 91, 91);
+    cursor: pointer;
+}
+
+.stop {
+    background: red;
+}
+
+.stop:hover {
+    background: rgb(153, 0, 0);
+    cursor: pointer;
+}
+
+.reinicia {
+    background: orange;
+}
+
+.reinicia:hover {
+    background: rgb(144, 93, 0);
+    cursor: pointer;
+}
+
+.voltas {
+    text-align: center;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 30px;
+    margin: 10px;
+    border: solid black 2px;
+}
+
+.iniciaTimer {
+    background: green;
+    color: rgb(0, 255, 0);
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.iniciaTimer:hover {
+    cursor: pointer;
+    background: rgb(0, 77, 0);
+}
+
+.pausaTimer {
+    background: orange;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.pausaTimer:hover {
+    cursor: pointer;
+    background: rgb(131, 85, 0);
+}
+
+.cancela {
+    background: grey;
+    color: rgb(255, 255, 255);
+    height: 70px;
+    width: 70px;
+    border-radius: 40px;
+}
+
+.cancela:hover {
+    cursor: pointer;
+    background: rgb(81, 81, 81);
+}
+
+#displayTimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+#acimaTimer {
+    margin-top: 150px;
+    margin-bottom: 0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#abaixoTimer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.mdi-arrow-up-drop-circle {
+    font-size: 30px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.mdi-arrow-down-drop-circle {
+    font-size: 30px;
+    margin-right: 7px;
+    margin-left: 7px;
+}
+
+.mdi-arrow-down-drop-circle:hover {
+    cursor: pointer;
+}
+
+.mdi-arrow-up-drop-circle:hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial;
+}
